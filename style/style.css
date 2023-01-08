@@ -1,10 +1,13 @@
 *{
     padding: 0px;
     margin: 0px;
-    /* border: 1px solid red; */
+
 }
+
+/* nav start */
+/* That is Extra Scetion Css */
 .text-primary{
-    color: #bcfd0a;
+    color: #9de000;
  }
 .nav-container{
     display: flex;
@@ -48,7 +51,11 @@ padding-left: 350px;
     margin-left: 100px;
 
 }
-/* banner css */
+
+/* That is Extra Scetion Css end */
+/* nav end */
+
+/* banner start*/
 .banner_section{
     background-image: url('../images/banner/banner2.png');
     width: 100%;
@@ -58,25 +65,25 @@ padding-left: 350px;
 }
 
 .banner-title{
-position: absolute;
-width: 525px;
-height: 228px;
-margin-top: 216px;
-margin-left: 750px;
-font-weight: 700;
-font-size: 65px;
-text-align: right;
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    margin-top: 216px;
+    margin-left: 750px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
 
 }
 .banner-descripition{
-position: absolute;
-width: 494px;
-height: 78px;
-margin-left: 776px;
-margin-top: 450px;
-font-weight: 400;
-font-size: 16px;
-text-align: right;
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    margin-left: 776px;
+    margin-top: 450px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
 }
 .primary-button{
     position: absolute;
@@ -90,8 +97,9 @@ text-align: right;
     
     
 }
+/* banner end */
 
-
+/* mid body start */
 .mid{
     position: absolute;
     display: flex;
@@ -108,48 +116,52 @@ text-align: right;
  }
  .mid-text-title{
     
-position: absolute;
-width: 288px;
-height: 94px;
-font-weight: 700;
-font-size: 37px;
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 37px;
 
  }
  .mid-text-descripition{
-position: absolute;
-width: 416px;
-height: 104px;
-font-weight: 400;
-font-size: 16px;
-margin-top: 95px;
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 95px;
  }
  .mid-text-short{
     margin-top: 170px;
     margin-left: 20px;
  }
+
+ /* mid body end */
+
  /* my skill start */
  .my-skill-title{
- margin-left: 411px;
- font-weight: 700;
-font-size: 40px;
+    margin-left: 411px;
+    font-weight: 700;
+    font-size: 40px;
  }
  .my-skill{
     position: absolute;
-width: 900px;
-height: 299.96px;
-margin-left: 170px;
-margin-top: 1000px;
+    width: 900px;
+    height: 299.96px;
+    margin-left: 170px;
+    margin-top: 1000px;
 
 
  }
 .skills-container{
     display: flex;
     justify-content: space-between;
-   margin-top: 30px;
-   margin-left: 120px;
-   gap: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+    gap: 50px;
 }
 
+/* my skill end */
 
 /* Gradient start */
 
@@ -159,7 +171,6 @@ margin-top: 1000px;
     height: 299.96px;
     margin-left: 230px;
     margin-top: 1270.3px;
-    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
     border-radius: 8px;
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
 
@@ -181,6 +192,8 @@ margin-top: 1000px;
     height: 64px;
 }
 
+/* Gradient end */
+
 /* footer start */
 .footer{
     width: 100%;
@@ -190,14 +203,15 @@ margin-top: 1000px;
     background: #151414;
 }
 .footer-container{
-display: flex;
-justify-content: space-around;
-color: rgb(238, 232, 232);
-padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(238, 232, 232);
+    padding-top: 100px;
 }
 .icon{
-width: 485px;
-height: 317px;
-left: 230px;
-top: 2776.3px;
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2776.3px;
 }
+/* footer end */
